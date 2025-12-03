@@ -6,7 +6,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: send mail
-       uses: dawidd6/action-send-mail@v3
+       uses: dawidd6/action-send-mail@v3       
        with:
         server_address: smtp.gmail.com
         server_port: 587
@@ -15,4 +15,8 @@ jobs:
         subject: "pipline trigger"
         to: saikiranyerraji000@gmail.com
         from: GitHub Actions
-        body: "Automation testing"        
+        body: "Automation testing" 
+        secure: true
+        ignore_cert: true
+        
+          
