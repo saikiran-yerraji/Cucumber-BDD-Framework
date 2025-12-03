@@ -16,7 +16,6 @@ jobs:
         to: saikiranyerraji000@gmail.com
         from: GitHub Actions
         body: "Automation testing" 
-        secure: true
-        ignore_cert: true
+        secure: false        
         
           
