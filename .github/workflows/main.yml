@@ -13,7 +13,7 @@ jobs:
         username: ${{ secrets.EMAIL_USER}}
         password: ${{ secrets.EMAIL_PASS}}
         subject: "pipline trigger"
-        to: saikiranyerraji000@gmail.com
+        to: automationsampletesting@gmail.com
         from: GitHub Actions
         body: "Automation testing" 
         secure: false        
